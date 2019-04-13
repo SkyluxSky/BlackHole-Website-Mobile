@@ -1,0 +1,87 @@
+@@font-face {
+  font-family: "batman";
+  src: url("https://res.cloudinary.com/tarek/raw/upload/v1554577721/document/batmfa__.ttf");
+}
+
+body {
+  background-color: #eee;
+  margin: 0px;
+}
+
+.head {
+  background-image:url("https://bit.ly/2UNmDw7");
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  margin: 0px;
+  padding: 5% 0%;
+}
+
+.head h1 {
+  font-family: "batman";
+  /* font-size: small; */
+  color: lightblue;
+  padding: 10% 0%;
+  text-shadow: 0px 0px 3px black
+}
+
+.article {
+  margin: 0px;
+  padding: 5% 0%;
+}
+
+.imageFrame {
+  background-color: white;
+  padding: 4%;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  margin: 5%;
+  box-shadow: 0px 0px 3px 0px;
+}
+
+.imageFrame img {
+  width: 95%;
+}
+
+.imageFrame p {
+  /* font-size: small; */
+  color: black;
+  font-family: serif;
+  text-align: center;
+}
+
+.article h2 {
+  margin-left: 5%;
+  font-family: serif;
+  width: 90%;
+}
+
+.article p {
+  margin-left: 5%;
+  font-family: serif;
+  width: 85%;
+}
+
+.article span {
+  display: block;
+  text-align: right;
+  margin-right: 5%;
+  color: #777;
+}
+
+.article h3 {
+  font-family: serif;
+  text-align: center;
+}
+
+.article h4 {
+  font-family: serif;
+  text-align: center;
+}
+
+iframe {
+  width: 80%;
+  border: 2px solid black;
+  margin-left: 10%;
+}
